@@ -13,7 +13,7 @@
 }
 
 body {
-    margin: 40px;
+    /* margin: 40px; */
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
@@ -21,19 +21,19 @@ body {
     color: #2d3436;
 
 
-display: grid;
+/* display: grid;
 grid:
   "header header header header" auto
   ".............. lists  active ............... " auto /
-  1fr minmax(100px,300px) minmax(250px, 500px) 1fr;
+  1fr minmax(100px,300px) minmax(250px, 500px) 1fr; */
 }
 
 .title {
-    grid-area: header;
+    /* grid-area: header; */
     text-align: center;
-    font-size: cal(4vw + 2rem);
+    /* font-size: cal(4vw + 2rem);
     font-weight: 900;
-    color:#2d3436;
+    color:#2d3436; */
     letter-spacing: 2px;
     margin: 20px;
     padding-left: 100px;
@@ -129,6 +129,8 @@ form {
 
 
 }
+
+/*
 
 .todo-list {
     --spacer: 3rem;
@@ -239,6 +241,7 @@ form {
     transform-origin: left;
 }
 
+*/
 .delete-stuffs {
     display: flex;
     justify-content:space-evenly;
@@ -247,4 +250,9 @@ form {
     left:0;
     bottom:-35px;
     color:var(--clr-light);
+}
+
+.tasks-container {
+    width: 600px;
+    margin: auto;
 }
