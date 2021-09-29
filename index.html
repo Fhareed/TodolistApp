@@ -12,7 +12,7 @@
     <h1 class="title">My Todo List</h1>
 
     <div class="tasks-container">
-      <div class="all-tasks todo-list">
+      <div class="list-container todo-list">
         <div class="todo-header my-list-header">
           <h3 class="task-list-title">All Lists</h3>
         </div>
@@ -33,15 +33,14 @@
         </div>
       </div>
 
-      <div class="todo-list tasks-div" data-list-display-container>
+      <div class="list-container tasks-div" data-list-display-container>
         <div class="todo-header">
-          <h3 class="list-title" data-list-title>Youtube</h3>
-          <p class="task-count" data-list-count>3 tasks remaining.</p>
+          <h3 class="list-title" data-list-title></h3>
+          <p class="task-count" data-list-count></p>
         </div>
 
         <div class="todo-body">
           <div class="tasks" data-tasks></div>
-          <!--end of task 3-->
           <div class="new-task-creator">
             <form action="" data-new-task-form>
               <input
@@ -56,7 +55,7 @@
           </div>
           <div class="delete-stuffs"></div>
           <button class="btn delete" data-clear-complete-task-button>
-            clear completed tasks
+            Clear completed tasks
           </button>
           <button class="btn delete" data-delete-list-button>
             Delete list
